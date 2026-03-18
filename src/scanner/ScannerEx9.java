@@ -23,11 +23,11 @@ public class ScannerEx9 {
                 int quantity = scanner.nextInt();
 
                 total += price * quantity;
-                System.out.println(name + " 추가 완료!");
+                System.out.println("상품명: " + name + " 가격: " + price + " 합계: " + price * quantity);
 
             } else if (option == 2) {
                 // 결제
-                System.out.println("총 비용: " + total + "원");
+                System.out.println("총 비용: " + total);
                 total = 0; // 초기화
 
             } else if (option == 3) {
