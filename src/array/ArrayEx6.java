@@ -1,7 +1,6 @@
 package array;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.lang.Math;
 
 public class ArrayEx6 {
     public static void main(String[] args) {
