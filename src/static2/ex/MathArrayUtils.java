@@ -18,7 +18,7 @@ public class MathArrayUtils {
         return avg;
     }
     public static int min(int[] array) {
-        int min = array[1];
+        int min = array[0];
         for(int i : array){
             if (min > i) {
                 min = i;
@@ -28,7 +28,7 @@ public class MathArrayUtils {
     }
     public static int max(int[] array) {
 
-        int max = array[1];
+        int max = array[0];
         for(int i : array){
             if (max < i) {
                 max = i;
