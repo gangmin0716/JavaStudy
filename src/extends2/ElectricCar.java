@@ -1,4 +1,5 @@
 package extends2;
+import extends3.Car;
 
 public class ElectricCar extends Car{
     public void charge() {
