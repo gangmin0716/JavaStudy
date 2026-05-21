@@ -19,6 +19,8 @@ public class LocalOuterV3 {
         }
 
         Printer printer = new LocalPrinter();
+        // localVar = 10;
+        // paramVar = 20;
         return printer;
     }
 
